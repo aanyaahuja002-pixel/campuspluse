@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CampusPulse - The ultimate college student community platform to discover campus activities, study groups, club events, and academic resources.">
+    <title>CampusPulse | College Student Community & Resource Hub</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header id="main-header">
+        <nav class="navbar" id="navbar">
+            <div class="nav-brand">
+                <a href="#hero" class="brand-link">
+                    <span class="brand-icon">🎓</span>
+                    <span class="brand-text">Campus<span class="brand-highlight">Pulse</span></span>
+                </a>
+                <span class="badge-campus">Spring 2026</span>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#activities" class="nav-link">Activities</a></li>
+                <li class="nav-item"><a href="#resources" class="nav-link">Resources</a></li>
+                <li class="nav-item"><a href="#study-groups" class="nav-link">Study Groups</a></li>
+                <li class="nav-item"><a href="#spotlight" class="nav-link">Clubs</a></li>
+                <li class="nav-item"><a href="#faqs" class="nav-link">Guides & FAQ</a></li>
+            </ul>
+
+            <!-- Header Action Buttons -->
+            <div class="nav-actions">
+                <a href="#resources" class="btn btn-secondary-nav">Student Vault</a>
+                <a href="#join-banner" class="btn btn-primary-nav">Join Hub</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-pill">
+                        <span class="pill-dot"></span>
+                        <span class="pill-text">Over 12,000+ Active Campus Peers</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Discover Campus Life, <span class="text-gradient">Connect with Peers</span> & Ace Your Academics.
+                    </h1>
+                    <p class="hero-description">
+                        CampusPulse is your all-in-one college community hub. Never miss an upcoming hackathon, cultural fest, peer study circle, or verified academic vault on campus.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#activities" class="btn btn-primary">
+                            <span>Explore Activities</span>
+                            <span class="btn-arrow">→</span>
+                        </a>
+                        <a href="#resources" class="btn btn-secondary">
+                            <span>Browse Resources</span>
+                        </a>
+                    </div>
+
+                    <!-- Quick Metrics / Stats -->
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <span class="stat-number">65+</span>
+                            <span class="stat-label">Active Clubs</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-card">
+                            <span class="stat-number">140+</span>
+                            <span class="stat-label">Monthly Events</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-card">
+                            <span class="stat-number">850+</span>
+                            <span class="stat-label">Study Guides</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-card">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Graphic Card / Community Preview -->
+                <div class="hero-visual">
+                    <div class="hero-glass-card main-card">
+                        <div class="card-header-badge">
+                            <span class="live-tag">🔴 HAPPENING TODAY</span>
+                            <span class="time-stamp">4:30 PM • Student Center Hall A</span>
+                        </div>
+                        <h3 class="glass-title">Annual Spring AI & Robotics Showcase</h3>
+                        <p class="glass-desc">Join 400+ students and professors for prototype demos, keynote speeches, and instant internship offers.</p>
+                        <div class="glass-meta">
+                            <div class="avatar-group">
+                                <span class="avatar av-1">👨‍💻</span>
+                                <span class="avatar av-2">👩‍🔬</span>
+                                <span class="avatar av-3">🧑‍🎨</span>
+                                <span class="avatar-count">+240 registered</span>
+                            </div>
+                            <a href="#activities" class="btn btn-sm btn-accent">RSVP Free</a>
+                        </div>
+                    </div>
+
+                    <!-- Floating Mini Widget 1 -->
+                    <div class="floating-widget widget-top">
+                        <div class="widget-icon">📚</div>
+                        <div class="widget-info">
+                            <span class="widget-heading">Data Structures Vault</span>
+                            <span class="widget-sub">Midterm notes uploaded</span>
+                        </div>
+                    </div>
+
+                    <!-- Floating Mini Widget 2 -->
+                    <div class="floating-widget widget-bottom">
+                        <div class="widget-icon">🏆</div>
+                        <div class="widget-info">
+                            <span class="widget-heading">HackCampus 2026</span>
+                            <span class="widget-sub">$5,000 Prize Pool Open</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ticker Announcement Bar -->
+        <div class="announcement-ticker">
+            <div class="container ticker-container">
+                <span class="ticker-badge">📢 Campus Bulletin</span>
+                <p class="ticker-text">
+                    Library 24/7 extended study hours begin next Monday • Career Fair registrations close Friday at 6:00 PM • Campus Shuttle Line 4 updated schedule available in Resources.
+                </p>
+                <a href="#resources" class="ticker-link">View Details</a>
+            </div>
+        </div>
+
+        <!-- Campus Activities Section -->
+        <section id="activities" class="activities-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Campus Buzz</span>
+                    <h2 class="section-title">Discover Exciting Campus Activities</h2>
+                    <p class="section-subtitle">
+                        From high-octane hackathons to calming weekend art workshops, explore what is happening across student clubs and campus venues.
+                    </p>
+                </div>
+
+                <!-- Activities Grid -->
+                <div class="cards-grid">
+                    <!-- Activity Card 1 -->
+                    <article class="activity-card" id="event-hackathon">
+                        <div class="activity-banner banner-tech">
+                            <span class="category-badge tech-badge">Tech & Coding</span>
+                            <span class="event-date">Oct 12-14</span>
+                        </div>
+                        <div class="activity-body">
+                            <div class="activity-meta">
+                                <span class="meta-item"><span class="meta-icon">📍</span> Tech Annex, Lab 302</span>
+                                <span class="meta-item"><span class="meta-icon">⏰</span> 36 Hours</span>
+                            </div>
+                            <h3 class="activity-title">HackCampus: 36-Hour Innovation Sprint</h3>
+                            <p class="activity-desc">
+                                Team up with fellow developers, UI/UX designers, and product creators to build solutions for real-world campus sustainability and education problems.
+                            </p>
+                            <div class="organizer-info">
+                                <span class="organizer-avatar">⚡</span>
+                                <div class="organizer-details">
+                                    <span class="organizer-name">ACM Student Chapter</span>
+                                    <span class="organizer-role">Official Host</span>
+                                </div>
+                            </div>
+                            <div class="card-footer-actions">
+                                <a href="#join-banner" class="btn btn-card-primary">Register Free</a>
+                                <a href="#activities" class="btn btn-card-outline">Details</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Activity Card 2 -->
+                    <article class="activity-card" id="event-cultural">
+                        <div class="activity-banner banner-arts">
+                            <span class="category-badge arts-badge">Culture & Music</span>
+                            <span class="event-date">Oct 18</span>
+                        </div>
+                        <div class="activity-body">
+                            <div class="activity-meta">
+                                <span class="meta-item"><span class="meta-icon">📍</span> Open Air Amphitheatre</span>
+                                <span class="meta-item"><span class="meta-icon">⏰</span> 6:00 PM - 10:00 PM</span>
+                            </div>
+                            <h3 class="activity-title">Acoustic Sunset Fest & Art Gallery</h3>
+                            <p class="activity-desc">
+                                An evening of student indie acoustic performances, poetry slams, live painting booths, and gourmet food trucks hosted by the Arts Guild.
+                            </p>
+                            <div class="organizer-info">
+                                <span class="organizer-avatar">🎨</span>
+                                <div class="organizer-details">
+                                    <span class="organizer-name">Fine Arts & Music Society</span>
+                                    <span class="organizer-role">Official Host</span>
+                                </div>
+                            </div>
+                            <div class="card-footer-actions">
+                                <a href="#join-banner" class="btn btn-card-primary">Get Pass</a>
+                                <a href="#activities" class="btn btn-card-outline">Lineup</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Activity Card 3 -->
+                    <article class="activity-card" id="event-career">
+                        <div class="activity-banner banner-career">
+                            <span class="category-badge career-badge">Career & Growth</span>
+                            <span class="event-date">Oct 22</span>
+                        </div>
+                        <div class="activity-body">
+                            <div class="activity-meta">
+                                <span class="meta-item"><span class="meta-icon">📍</span> Career Services Hall</span>
+                                <span class="meta-item"><span class="meta-icon">⏰</span> 2:00 PM - 5:30 PM</span>
+                            </div>
+                            <h3 class="activity-title">Resume Teardown & Alumni Mock Interviews</h3>
+                            <p class="activity-desc">
+                                Get your resume reviewed 1-on-1 by college alumni currently working at leading tech, finance, and engineering firms. Free headshots included!
+                            </p>
+                            <div class="organizer-info">
+                                <span class="organizer-avatar">💼</span>
+                                <div class="organizer-details">
+                                    <span class="organizer-name">Student Career Network</span>
+                                    <span class="organizer-role">Official Host</span>
+                                </div>
+                            </div>
+                            <div class="card-footer-actions">
+                                <a href="#join-banner" class="btn btn-card-primary">Book 1-on-1 Slot</a>
+                                <a href="#activities" class="btn btn-card-outline">Mentors</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Activity Card 4 -->
+                    <article class="activity-card" id="event-sports">
+                        <div class="activity-banner banner-sports">
+                            <span class="category-badge sports-badge">Athletics & Sports</span>
+                            <span class="event-date">Every Sat</span>
+                        </div>
+                        <div class="activity-body">
+                            <div class="activity-meta">
+                                <span class="meta-item"><span class="meta-icon">📍</span> Campus Sports Complex</span>
+                                <span class="meta-item"><span class="meta-icon">⏰</span> 9:00 AM - 1:00 PM</span>
+                            </div>
+                            <h3 class="activity-title">Inter-Department Badminton & Futsal League</h3>
+                            <p class="activity-desc">
+                                Join casual and competitive weekend tournament matches. Open to all skill levels with trophies, refreshments, and spirit points for departments.
+                            </p>
+                            <div class="organizer-info">
+                                <span class="organizer-avatar">🏸</span>
+                                <div class="organizer-details">
+                                    <span class="organizer-name">Intramural Sports Club</span>
+                                    <span class="organizer-role">Official Host</span>
+                                </div>
+                            </div>
+                            <div class="card-footer-actions">
+                                <a href="#join-banner" class="btn btn-card-primary">Join Team</a>
+                                <a href="#activities" class="btn btn-card-outline">Brackets</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Activity Card 5 -->
+                    <article class="activity-card" id="event-esports">
+                        <div class="activity-banner banner-gaming">
+                            <span class="category-badge gaming-badge">Gaming & Esports</span>
+                            <span class="event-date">Oct 28</span>
+                        </div>
+                        <div class="activity-body">
+                            <div class="activity-meta">
+                                <span class="meta-item"><span class="meta-icon">📍</span> Student Lounge East</span>
+                                <span class="meta-item"><span class="meta-icon">⏰</span> 5:00 PM - 9:00 PM</span>
+                            </div>
+                            <h3 class="activity-title">Campus Smash & Valorant LAN Showdown</h3>
+                            <p class="activity-desc">
+                                Battle it out on high-refresh-rate rigs or bring your Nintendo Switch for casual friendly brawls. Free pizza for all attendees!
+                            </p>
+                            <div class="organizer-info">
+                                <span class="organizer-avatar">🎮</span>
+                                <div class="organizer-details">
+                                    <span class="organizer-name">Esports Guild</span>
+                                    <span class="organizer-role">Official Host</span>
+                                </div>
+                            </div>
+                            <div class="card-footer-actions">
+                                <a href="#join-banner" class="btn btn-card-primary">Enter Bracket</a>
+                                <a href="#activities" class="btn btn-card-outline">Rules</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Activity Card 6 -->
+                    <article class="activity-card" id="event-wellness">
+                        <div class="activity-banner banner-wellness">
+                            <span class="category-badge wellness-badge">Wellness & Mind</span>
+                            <span class="event-date">Every Wed</span>
+                        </div>
+                        <div class="activity-body">
+                            <div class="activity-meta">
+                                <span class="meta-item"><span class="meta-icon">📍</span> Botanical Lawn / Terrace</span>
+                                <span class="meta-item"><span class="meta-icon">⏰</span> 7:30 AM - 8:30 AM</span>
+                            </div>
+                            <h3 class="activity-title">Sunrise Yoga & Mindful Breathing Circle</h3>
+                            <p class="activity-desc">
+                                Reset your mind during hectic exam weeks. Enjoy guided morning meditation followed by complimentary herbal teas and fruit bowls.
+                            </p>
+                            <div class="organizer-info">
+                                <span class="organizer-avatar">🌿</span>
+                                <div class="organizer-details">
+                                    <span class="organizer-name">Peer Wellness Collective</span>
+                                    <span class="organizer-role">Official Host</span>
+                                </div>
+                            </div>
+                            <div class="card-footer-actions">
+                                <a href="#join-banner" class="btn btn-card-primary">Save Spot</a>
+                                <a href="#activities" class="btn btn-card-outline">Schedule</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Useful Student Resources Section -->
+        <section id="resources" class="resources-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Academic & Campus Vault</span>
+                    <h2 class="section-title">Essential Resources Every Student Needs</h2>
+                    <p class="section-subtitle">
+                        Curated by senior students and faculty advisors to save you hours of searching. Access study materials, software licenses, housing, and health aid.
+                    </p>
+                </div>
+
+                <!-- Resources Grid -->
+                <div class="resources-grid">
+                    <!-- Resource Item 1 -->
+                    <div class="resource-card" id="res-exam">
+                        <div class="resource-icon-box bg-purple">
+                            <span>📖</span>
+                        </div>
+                        <div class="resource-content">
+                            <h3 class="resource-title">Exam Vault & Past Question Papers</h3>
+                            <p class="resource-desc">
+                                Over 10 years of categorized past exam papers, midterm question banks, formula cheat sheets, and verified solution keys.
+                            </p>
+                            <ul class="resource-feature-list">
+                                <li>✦ Categorized by Major & Semester</li>
+                                <li>✦ Student-annotated solutions</li>
+                                <li>✦ Quick PDF search & download</li>
+                            </ul>
+                            <a href="#resources" class="btn btn-resource">Open Exam Vault →</a>
+                        </div>
+                    </div>
+
+                    <!-- Resource Item 2 -->
+                    <div class="resource-card" id="res-software">
+                        <div class="resource-icon-box bg-blue">
+                            <span>💻</span>
+                        </div>
+                        <div class="resource-content">
+                            <h3 class="resource-title">Free Student Software & Dev Packs</h3>
+                            <p class="resource-desc">
+                                Claim your free student GitHub Developer Pack, JetBrains licenses, MATLAB, Adobe Creative Cloud discount codes, and Notion Pro.
+                            </p>
+                            <ul class="resource-feature-list">
+                                <li>✦ $200k+ in software benefits</li>
+                                <li>✦ University email verification guide</li>
+                                <li>✦ Cloud credits (AWS, GCP, Azure)</li>
+                            </ul>
+                            <a href="#resources" class="btn btn-resource">Claim Software Perks →</a>
+                        </div>
+                    </div>
+
+                    <!-- Resource Item 3 -->
+                    <div class="resource-card" id="res-internships">
+                        <div class="resource-icon-box bg-emerald">
+                            <span>🎯</span>
+                        </div>
+                        <div class="resource-content">
+                            <h3 class="resource-title">Internship & Research Opportunity Board</h3>
+                            <p class="resource-desc">
+                                Filter on-campus research assistantships, local paid internships, part-time student desk jobs, and alumni-referred roles.
+                            </p>
+                            <ul class="resource-feature-list">
+                                <li>✦ Verified on-campus hourly jobs</li>
+                                <li>✦ Direct professor lab contacts</li>
+                                <li>✦ Cover letter & cold email templates</li>
+                            </ul>
+                            <a href="#resources" class="btn btn-resource">Explore Opportunities →</a>
+                        </div>
+                    </div>
+
+                    <!-- Resource Item 4 -->
+                    <div class="resource-card" id="res-wellness">
+                        <div class="resource-icon-box bg-coral">
+                            <span>❤️</span>
+                        </div>
+                        <div class="resource-content">
+                            <h3 class="resource-title">Mental Health & Wellness Helpline</h3>
+                            <p class="resource-desc">
+                                Confidential student counseling appointments, 24/7 peer listener hotline, therapy dog visit schedules, and stress-relief resources.
+                            </p>
+                            <ul class="resource-feature-list">
+                                <li>✦ Free 1-on-1 counseling booking</li>
+                                <li>✦ Anonymous chat support</li>
+                                <li>✦ Campus health center fast-track</li>
+                            </ul>
+                            <a href="#resources" class="btn btn-resource">Access Wellness Aid →</a>
+                        </div>
+                    </div>
+
+                    <!-- Resource Item 5 -->
+                    <div class="resource-card" id="res-housing">
+                        <div class="resource-icon-box bg-amber">
+                            <span>🏡</span>
+                        </div>
+                        <div class="resource-content">
+                            <h3 class="resource-title">Off-Campus Housing & Roommate Finder</h3>
+                            <p class="resource-desc">
+                                Verified sublets, verified student roommate profiles, campus shuttle schedules, and landlord review repository.
+                            </p>
+                            <ul class="resource-feature-list">
+                                <li>✦ Student-only verified listings</li>
+                                <li>✦ Safety ratings & walking distances</li>
+                                <li>✦ Sublet agreement templates</li>
+                            </ul>
+                            <a href="#resources" class="btn btn-resource">Find Housing & Roommates →</a>
+                        </div>
+                    </div>
+
+                    <!-- Resource Item 6 -->
+                    <div class="resource-card" id="res-dining">
+                        <div class="resource-icon-box bg-indigo">
+                            <span>🥗</span>
+                        </div>
+                        <div class="resource-content">
+                            <h3 class="resource-title">Dining Menus & Local Student Discounts</h3>
+                            <p class="resource-desc">
+                                Daily dining hall menus with calorie & allergen info, plus exclusive 15-30% discount coupons for local coffee shops and diners.
+                            </p>
+                            <ul class="resource-feature-list">
+                                <li>✦ Live cafeteria meal updates</li>
+                                <li>✦ Halal, vegan & gluten-free tags</li>
+                                <li>✦ Flash coupons for campus perimeter</li>
+                            </ul>
+                            <a href="#resources" class="btn btn-resource">View Menus & Deals →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Study Groups & Peer Circles -->
+        <section id="study-groups" class="groups-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Collaborative Learning</span>
+                    <h2 class="section-title">Join Active Peer Study Groups</h2>
+                    <p class="section-subtitle">
+                        Studying is better together. Find study buddies in your courses, attend weekly problem-solving rooms, or start your own study circle.
+                    </p>
+                </div>
+
+                <div class="groups-grid">
+                    <!-- Group 1 -->
+                    <div class="group-card">
+                        <div class="group-top">
+                            <div class="group-badge">CS 204</div>
+                            <span class="group-status active-status">● 14 Online</span>
+                        </div>
+                        <h3 class="group-name">Algorithms & Data Structures Prep</h3>
+                        <p class="group-desc">Weekly LeetCode problem solving, algorithm design practice, and midterm review sessions.</p>
+                        <div class="group-details">
+                            <div class="detail-row">
+                                <span class="detail-label">🕒 Schedule:</span>
+                                <span class="detail-val">Tues & Thurs • 6:00 PM</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">📍 Location:</span>
+                                <span class="detail-val">Library Study Room 4B / Discord</span>
+                            </div>
+                        </div>
+                        <div class="group-footer">
+                            <span class="members-count">👥 48 Members</span>
+                            <a href="#join-banner" class="btn btn-sm btn-group-join">Join Circle</a>
+                        </div>
+                    </div>
+
+                    <!-- Group 2 -->
+                    <div class="group-card">
+                        <div class="group-top">
+                            <div class="group-badge badge-chem">CHEM 102</div>
+                            <span class="group-status active-status">● 8 Online</span>
+                        </div>
+                        <h3 class="group-name">Organic Chemistry Reaction Mechanisms</h3>
+                        <p class="group-desc">Mastering synthesis pathways, stereochemistry, and lab report peer reviews with teaching assistants.</p>
+                        <div class="group-details">
+                            <div class="detail-row">
+                                <span class="detail-label">🕒 Schedule:</span>
+                                <span class="detail-val">Mondays • 5:30 PM</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">📍 Location:</span>
+                                <span class="detail-val">Science Hall Atrium</span>
+                            </div>
+                        </div>
+                        <div class="group-footer">
+                            <span class="members-count">👥 32 Members</span>
+                            <a href="#join-banner" class="btn btn-sm btn-group-join">Join Circle</a>
+                        </div>
+                    </div>
+
+                    <!-- Group 3 -->
+                    <div class="group-card">
+                        <div class="group-top">
+                            <div class="group-badge badge-math">MATH 215</div>
+                            <span class="group-status idle-status">● Meets Tonight</span>
+                        </div>
+                        <h3 class="group-name">Multivariable Calculus & Linear Algebra</h3>
+                        <p class="group-desc">Collaborative homework help, matrix transformations walkthroughs, and exam practice tests.</p>
+                        <div class="group-details">
+                            <div class="detail-row">
+                                <span class="detail-label">🕒 Schedule:</span>
+                                <span class="detail-val">Wednesdays • 7:00 PM</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">📍 Location:</span>
+                                <span class="detail-val">Math Lab 108</span>
+                            </div>
+                        </div>
+                        <div class="group-footer">
+                            <span class="members-count">👥 27 Members</span>
+                            <a href="#join-banner" class="btn btn-sm btn-group-join">Join Circle</a>
+                        </div>
+                    </div>
+
+                    <!-- Group 4 -->
+                    <div class="group-card">
+                        <div class="group-top">
+                            <div class="group-badge badge-design">DES 310</div>
+                            <span class="group-status active-status">● 19 Online</span>
+                        </div>
+                        <h3 class="group-name">UI/UX Design Jam & Portfolio Reviews</h3>
+                        <p class="group-desc">Figma component systems, user research critiques, and collaborative case study builds.</p>
+                        <div class="group-details">
+                            <div class="detail-row">
+                                <span class="detail-label">🕒 Schedule:</span>
+                                <span class="detail-val">Fridays • 4:00 PM</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">📍 Location:</span>
+                                <span class="detail-val">Design Media Studio B</span>
+                            </div>
+                        </div>
+                        <div class="group-footer">
+                            <span class="members-count">👥 56 Members</span>
+                            <a href="#join-banner" class="btn btn-sm btn-group-join">Join Circle</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Club Spotlight & Community Highlights -->
+        <section id="spotlight" class="spotlight-section">
+            <div class="container">
+                <div class="spotlight-box">
+                    <div class="spotlight-text">
+                        <span class="spotlight-label">⭐ Club of the Month</span>
+                        <h2 class="spotlight-title">Solar Racing & Electric Vehicle Team</h2>
+                        <p class="spotlight-desc">
+                            The Solar Racing Club brings together electrical, mechanical, and software engineers to build sustainable solar race cars competing in international collegiate challenges.
+                        </p>
+                        <div class="spotlight-perks">
+                            <div class="perk-item">
+                                <span class="perk-icon">🛠️</span>
+                                <div>
+                                    <strong class="perk-title">Hands-on Lab Experience</strong>
+                                    <p class="perk-sub">Work with CNC machines, battery telemetry, and aerodynamics software.</p>
+                                </div>
+                            </div>
+                            <div class="perk-item">
+                                <span class="perk-icon">🌍</span>
+                                <div>
+                                    <strong class="perk-title">International Competitions</strong>
+                                    <p class="perk-sub">Represent your university in global races with fully funded travel.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="spotlight-cta">
+                            <a href="#join-banner" class="btn btn-primary">Apply to Join Team</a>
+                            <a href="#spotlight" class="btn btn-outline-white">Watch Project Demo</a>
+                        </div>
+                    </div>
+                    <div class="spotlight-card-visual">
+                        <div class="stat-highlight-card">
+                            <span class="highlight-emoji">🏆</span>
+                            <h3 class="highlight-num">1st Place</h3>
+                            <p class="highlight-text">Collegiate Solar Challenge 2025</p>
+                        </div>
+                        <div class="stat-highlight-card">
+                            <span class="highlight-emoji">🔋</span>
+                            <h3 class="highlight-num">1,200 km</h3>
+                            <p class="highlight-text">Single Charge Endurance Record</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Student Reviews / Testimonials -->
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Student Voices</span>
+                    <h2 class="section-title">Why Students Love CampusPulse</h2>
+                    <p class="section-subtitle">Read how our platform transformed campus life for freshmen, seniors, and graduate students alike.</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-quote">
+                            "As a freshman, I was overwhelmed trying to find study groups and club events. CampusPulse helped me join the coding society and ace my calculus midterms!"
+                        </p>
+                        <div class="student-profile">
+                            <div class="student-avatar bg-avatar-1">👩‍🎓</div>
+                            <div class="student-info">
+                                <strong class="student-name">Samantha Chen</strong>
+                                <span class="student-meta">Computer Science, Class of '28</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-quote">
+                            "The past question bank alone saved my semester! The notes are high quality and organized so intuitively. Best student resource ever built."
+                        </p>
+                        <div class="student-profile">
+                            <div class="student-avatar bg-avatar-2">👨‍🎓</div>
+                            <div class="student-info">
+                                <strong class="student-name">Marcus Vance</strong>
+                                <span class="student-meta">Biomedical Engineering, Class of '26</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-quote">
+                            "Our robotics club saw a 200% increase in attendance after listing workshops here. The community feed keeps every student connected effortlessly."
+                        </p>
+                        <div class="student-profile">
+                            <div class="student-avatar bg-avatar-3">🧑‍💼</div>
+                            <div class="student-info">
+                                <strong class="student-name">Aarav Patel</strong>
+                                <span class="student-meta">Robotics Club Lead, Class of '25</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frequently Asked Questions / Student Guides -->
+        <section id="faqs" class="faq-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Help & Guidelines</span>
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-subtitle">Everything you need to know about navigating community features and submitting resources.</p>
+                </div>
+
+                <div class="faq-container">
+                    <div class="faq-item" id="faq-1">
+                        <h3 class="faq-question">Who can join CampusPulse and access resources?</h3>
+                        <p class="faq-answer">
+                            CampusPulse is 100% free and accessible to all currently enrolled undergraduate and graduate students, faculty members, and verified alumni. Simply use your student email (.edu) to unlock all exclusive perks.
+                        </p>
+                    </div>
+
+                    <div class="faq-item" id="faq-2">
+                        <h3 class="faq-question">How can my student club host or feature an event?</h3>
+                        <p class="faq-answer">
+                            Any registered student organization or club officer can submit an event request via the community portal. Once verified by the Student Activities Board (usually within 12 hours), your event is displayed on the main feed and activity calendar.
+                        </p>
+                    </div>
+
+                    <div class="faq-item" id="faq-3">
+                        <h3 class="faq-question">Are the study notes and past papers reviewed for academic integrity?</h3>
+                        <p class="faq-answer">
+                            Yes! All materials uploaded to the academic repository are reviewed by peer moderators and department ambassadors to strictly ensure compliance with university honor codes and copyright guidelines.
+                        </p>
+                    </div>
+
+                    <div class="faq-item" id="faq-4">
+                        <h3 class="faq-question">How do I create or lead a new peer study group?</h3>
+                        <p class="faq-answer">
+                            Navigate to the Study Groups section, click 'Create Circle', specify your course code, meeting days, and preferred campus venue (e.g. Library Study Pods or online room). Other students enrolled in that subject can instantly request to join.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Banner -->
+        <section id="join-banner" class="cta-banner-section">
+            <div class="container">
+                <div class="cta-card">
+                    <div class="cta-content">
+                        <span class="cta-badge">🎉 Get Involved Today</span>
+                        <h2 class="cta-title">Ready to Make the Most of Your Campus Life?</h2>
+                        <p class="cta-description">
+                            Join thousands of fellow students discovering exciting campus events, building strong study habits, and making lifelong friendships.
+                        </p>
+                        
+                        <!-- Static Form / Input Demo -->
+                        <div class="cta-form-container">
+                            <form class="cta-form" action="#hero">
+                                <input type="email" placeholder="Enter your university email (.edu)" class="cta-input" required>
+                                <button type="submit" class="btn btn-cta-submit">Join Community</button>
+                            </form>
+                            <p class="cta-disclaimer">🔒 Free for university students. No spam, ever.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand-col">
+                <a href="#hero" class="brand-link footer-brand">
+                    <span class="brand-icon">🎓</span>
+                    <span class="brand-text">Campus<span class="brand-highlight">Pulse</span></span>
+                </a>
+                <p class="footer-about">
+                    The centralized digital quad for university students. Discover happenings, access verified study materials, and engage with vibrant student organizations.
+                </p>
+                <div class="social-links">
+                    <a href="#main-footer" class="social-btn" title="Campus Discord">💬 Discord</a>
+                    <a href="#main-footer" class="social-btn" title="Instagram">📸 Instagram</a>
+                    <a href="#main-footer" class="social-btn" title="GitHub">💻 GitHub</a>
+                    <a href="#main-footer" class="social-btn" title="LinkedIn">👔 LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="footer-nav-col">
+                <h4 class="footer-heading">Campus Activities</h4>
+                <ul class="footer-links">
+                    <li><a href="#activities">Hackathons & Tech</a></li>
+                    <li><a href="#activities">Cultural & Music Fests</a></li>
+                    <li><a href="#activities">Career & Networking</a></li>
+                    <li><a href="#activities">Intramural Sports</a></li>
+                    <li><a href="#activities">Esports Tournaments</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav-col">
+                <h4 class="footer-heading">Academic Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="#resources">Exam & Question Vault</a></li>
+                    <li><a href="#resources">Free Software Packs</a></li>
+                    <li><a href="#resources">Research Opportunities</a></li>
+                    <li><a href="#resources">Housing & Sublets</a></li>
+                    <li><a href="#resources">Dining Hall Menus</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav-col">
+                <h4 class="footer-heading">Student Support</h4>
+                <ul class="footer-links">
+                    <li><a href="#faqs">Campus FAQs</a></li>
+                    <li><a href="#resources">Mental Health Line</a></li>
+                    <li><a href="#study-groups">Study Room Booking</a></li>
+                    <li><a href="#spotlight">Register a Club</a></li>
+                    <li><a href="#main-footer">Campus Security (24/7)</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p class="copyright-text">
+                    &copy; 2026 CampusPulse Community. Built by and for university students.
+                </p>
+                <div class="footer-bottom-links">
+                    <a href="#main-footer">Privacy Policy</a>
+                    <span class="dot-sep">•</span>
+                    <a href="#main-footer">Community Guidelines</a>
+                    <span class="dot-sep">•</span>
+                    <a href="#main-footer">Honor Code</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
